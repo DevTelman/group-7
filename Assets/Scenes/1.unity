@@ -527,7 +527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abec20230b0e80841bdf9970029bc8f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jumping
-  jumpForce: 7
+  jumpForce: 10
 --- !u!54 &2088563665
 Rigidbody:
   m_ObjectHideFlags: 0
