@@ -15,7 +15,6 @@ public class PlayerJump : MonoBehaviour
 
     void Update()
     {
-        // Թռիչք՝ ↑ սլաքով
         if (Keyboard.current.upArrowKey.wasPressedThisFrame && isGrounded)
         {
             rigidbodyComponent.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
