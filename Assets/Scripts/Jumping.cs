@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerJump : MonoBehaviour
 {
-    public float jumpForce = 3f;
+    public float jumpForce = 10f;
 
     private Rigidbody rigidbodyComponent;
     private bool isGrounded;

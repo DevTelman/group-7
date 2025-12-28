@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class Move : MonoBehaviour
 {
-    public float speed = 2.5f;
+    public float speed = 5f;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
