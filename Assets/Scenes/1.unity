@@ -887,7 +887,7 @@ GameObject:
   - component: {fileID: 1543120460}
   - component: {fileID: 1543120459}
   m_Layer: 0
-  m_Name: 3dfcab09-df85-41cc-aa5f-b7455a367587-removebg-preview_7
+  m_Name: cat walk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1137,7 +1137,7 @@ GameObject:
   - component: {fileID: 1885942594}
   - component: {fileID: 1885942593}
   m_Layer: 0
-  m_Name: photo_5400303252076696542_x-removebg-preview_0
+  m_Name: bird
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1751,7 +1751,7 @@ GameObject:
   - component: {fileID: 2095889984}
   - component: {fileID: 2095889983}
   m_Layer: 0
-  m_Name: photo_2026-01-08_00-00-53-removebg-preview_0
+  m_Name: cat run
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
