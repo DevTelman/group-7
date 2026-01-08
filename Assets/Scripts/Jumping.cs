@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerJump : MonoBehaviour
 {
-    public float jumpForce = 30f;
+    public float jumpForce = 20f;
 
     private Rigidbody rigidbodyComponent;
     private bool isGrounded;
@@ -24,9 +24,10 @@ public class PlayerJump : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
             isGrounded = true;
         }
     }
 }
+
