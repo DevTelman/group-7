@@ -1,33 +1,37 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerJump : MonoBehaviour
+public class Jump : MonoBehaviour
 {
-    public float jumpForce = 20f;
+    public float jumpForce = 17f;
 
-    private Rigidbody rigidbodyComponent;
-    private bool isGrounded;
+    private Rigidbody rb;
+    private bool isGrounded = true;
 
     void Start()
     {
-        rigidbodyComponent = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
     {
         if (Keyboard.current.upArrowKey.wasPressedThisFrame && isGrounded)
         {
-            rigidbodyComponent.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             isGrounded = false;
         }
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
+        // Առանց tag / layer — պարզապես ստուգում ենք՝ ներքևից է բախվել
+        foreach (ContactPoint contact in collision.contacts)
         {
-            isGrounded = true;
+            if (contact.normal.y > 0.5f)
+            {
+                isGrounded = true;
+                break;
+            }
         }
     }
 }
-
