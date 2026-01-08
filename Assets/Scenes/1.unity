@@ -1468,7 +1468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abec20230b0e80841bdf9970029bc8f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerJump
-  jumpForce: 10
+  jumpForce: 30
 --- !u!1 &1956260378
 GameObject:
   m_ObjectHideFlags: 0
