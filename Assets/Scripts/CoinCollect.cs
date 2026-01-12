@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class CoinCollect : MonoBehaviour
 {
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Coin"))
+        if (other.CompareTag("Coin"))
         {
             Destroy(other.gameObject);
         }
