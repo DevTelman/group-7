@@ -9,8 +9,8 @@ public class RestartLevelSimple : MonoBehaviour
        
         Time.timeScale = 1f;
 
+
+       SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
         
-        Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.name);
     }
 }

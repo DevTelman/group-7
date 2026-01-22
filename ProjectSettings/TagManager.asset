@@ -8,6 +8,9 @@ TagManager:
   - Coin
   - Player01
   - LosePoint
+  - FxTemporaire
+  - Win
+  - WinPoint
   layers:
   - Default
   - TransparentFX
