@@ -1,18 +1,29 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class GameOver : MonoBehaviour
+public class GameOver: MonoBehaviour
 {
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("LosePoint"))
-        {
-            Debug.Log("YOU LOSE!");
+    public GameObject gameOverPanel; 
 
-            
+    private bool triggered = false; 
+
+  
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (triggered) return; 
+
+     
+        if (other.CompareTag("Player"))
+        {
+            triggered = true;
+
+          
+            if (gameOverPanel != null)
+                gameOverPanel.SetActive(true);
+
+           
             Time.timeScale = 0f;
 
-            
+            Debug.Log("YOU LOSE!");
         }
     }
 }
