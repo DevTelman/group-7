@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3bbb3b28ffa337948acb527cedd86366
+guid: af19f60a9a3f4454db43d401f5cfd5cc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,12 +108,34 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: download (9) 1_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 188
+        width: 661
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e937f80adeaca244583f59e596dd8e7c
+      internalID: 2078917259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f68e0fc3993edcc4fad57653b9fddd9e
     internalID: 0
     vertices: []
     indices: 
@@ -121,8 +143,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      download (9) 1_0: 2078917259
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
