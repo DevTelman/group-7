@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class Jump : MonoBehaviour
 {
-    public float jumpForce = 20f;
+    public float jumpForce = 10f;
 
     private Rigidbody2D rb;
     private bool isGrounded = true;
