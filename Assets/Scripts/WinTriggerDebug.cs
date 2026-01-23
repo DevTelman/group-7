@@ -3,6 +3,7 @@
 public class WinTriggerDebug : MonoBehaviour
 {
     public GameObject winPanel;
+    public GameObject playerObject;
 
     private void Start()
     {
@@ -10,17 +11,17 @@ public class WinTriggerDebug : MonoBehaviour
             winPanel.SetActive(false);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Trigger: " + other.name + " Tag: " + other.tag);
-
-        if (other.CompareTag("Player"))
+        
+        if (other.gameObject == playerObject)
         {
-            Debug.Log("✅ Player կպել WinCube-ին!");
+            Debug.Log("✅ Player-ը հասավ տեղ!");
             if (winPanel != null)
+            {
                 winPanel.SetActive(true);
-            Time.timeScale = 0f;
+                Time.timeScale = 0f; 
+            }
         }
     }
-
 }

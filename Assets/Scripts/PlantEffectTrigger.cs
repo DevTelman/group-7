@@ -3,15 +3,17 @@ using System.Collections;
 
 public class PlantEffectTrigger : MonoBehaviour
 {
-    public GameObject effectPrefab;   
-    public float effectDuration = 3f; 
+    public GameObject effectPrefab;
+    public float effectDuration = 2f;
+    public GameObject playerObject; 
 
     private bool triggered = false;
 
-    void OnTriggerEnter(Collider other)
+   
+    void OnTriggerEnter2D(Collider2D other)
     {
-      
-        if (!triggered && other.CompareTag("Player"))
+        
+        if (!triggered && other.gameObject == playerObject)
         {
             triggered = true;
             StartCoroutine(TriggerEffect());
@@ -20,13 +22,9 @@ public class PlantEffectTrigger : MonoBehaviour
 
     IEnumerator TriggerEffect()
     {
-       
         GameObject effect = Instantiate(effectPrefab, transform.position, Quaternion.identity);
-
-       
         effect.name = "PlantEffect";
 
-        
         Renderer rend = GetComponent<Renderer>();
         if (rend != null)
         {
@@ -40,16 +38,13 @@ public class PlantEffectTrigger : MonoBehaviour
                 elapsed += Time.deltaTime;
                 yield return null;
             }
-
             rend.material.color = originalColor;
         }
         else
         {
-            
             yield return new WaitForSeconds(effectDuration);
         }
 
-       
         Destroy(effect);
         Destroy(gameObject);
     }
