@@ -11,6 +11,7 @@ TagManager:
   - FxTemporaire
   - Win
   - WinPoint
+  - CoinManager
   layers:
   - Default
   - TransparentFX
