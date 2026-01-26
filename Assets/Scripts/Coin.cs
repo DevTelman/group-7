@@ -7,7 +7,7 @@ public class Coin : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             CoinManager.instance.AddCoin();
-            Destroy(gameObject); // 💰 կոպեկը անհետանում է
+            Destroy(gameObject); 
         }
     }
 }
