@@ -12,6 +12,7 @@ TagManager:
   - Win
   - WinPoint
   - CoinManager
+  - Door
   layers:
   - Default
   - TransparentFX
