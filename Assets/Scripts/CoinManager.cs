@@ -6,7 +6,7 @@ public class CoinManager : MonoBehaviour
     public static CoinManager instance;
 
     public int coinCount = 0;
-    public TextMeshProUGUI coinText; // UI text
+    public TextMeshProUGUI coinText; 
 
     private void Awake()
     {
@@ -20,6 +20,6 @@ public class CoinManager : MonoBehaviour
     {
         coinCount++;
         coinText.text = coinCount.ToString();
-        Debug.Log("Կոպեկաներ: " + coinCount);
+        Debug.Log("Կոպեկներ: " + coinCount);
     }
 }
