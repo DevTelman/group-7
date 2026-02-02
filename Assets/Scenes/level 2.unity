@@ -7747,6 +7747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Clare
       objectReference: {fileID: 0}
+    - target: {fileID: 6482091300721808730, guid: 1cb23765c593c8d4f812d69d285b9cfd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

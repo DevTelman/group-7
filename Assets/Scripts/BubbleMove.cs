@@ -1,16 +1,16 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Move : MonoBehaviour
+public class BubbleMove : MonoBehaviour
 {
-    SpriteRenderer sr;
-
+    public GameObject right;
+    public GameObject left;
     public float speed = 10f;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
+        
     }
 
     // Update is called once per frame
@@ -19,22 +19,25 @@ public class Move : MonoBehaviour
         Debug.Log(Time.deltaTime);
         if (Keyboard.current.rightArrowKey.isPressed)
         {
-            MoveRight();
+            Right();
+
         }
         else if (Keyboard.current.leftArrowKey.isPressed)
         {
-            MoveLeft();
+            Left();
+
         }
     }
-    void MoveLeft()
+    private void Right()
     {
-        transform.position += new Vector3(-speed*Time.deltaTime, 0, 0);
-        sr.flipX = true;
-    }
-    void MoveRight()
-    {
-        transform.position += new Vector3(speed*Time.deltaTime, 0, 0);
-        sr.flipX = false;
-    }
+        right.SetActive(true);
+        left.SetActive(false);
 
+    }
+    private void Left()
+    {
+        right.SetActive(false);
+        left.SetActive(true);
+    }
 }
+
