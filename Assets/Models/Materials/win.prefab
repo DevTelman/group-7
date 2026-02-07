@@ -520,11 +520,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.75869316, g: 0.8666667, b: 0.2352941, a: 1}
-    m_HighlightedColor: {r: 0.9587467, g: 1, b: 0.4666667, a: 1}
-    m_PressedColor: {r: 0.88344467, g: 0.93333334, b: 0.5058824, a: 1}
-    m_SelectedColor: {r: 0.8182668, g: 0.8392157, b: 0.22745098, a: 1}
-    m_DisabledColor: {r: 1, g: 0.969542, b: 0.19215685, a: 0.5019608}
+    m_NormalColor: {r: 0.082352154, g: 0.8301887, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.08597367, g: 0.7924528, b: 0.27442822, a: 1}
+    m_PressedColor: {r: 0.3307016, g: 0.6981132, b: 0.26014596, a: 1}
+    m_SelectedColor: {r: 0.16929333, g: 0.5471698, b: 0.13679245, a: 1}
+    m_DisabledColor: {r: 0.40384394, g: 0.8301887, b: 0.3798505, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -573,7 +573,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5290795724351048344
 RectTransform:
   m_ObjectHideFlags: 0

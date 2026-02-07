@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6394529182326067469
 RectTransform:
   m_ObjectHideFlags: 0
@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 2100000, guid: 2c6f3b5857190ac46884f2804981dea4, type: 2}
+  m_Material: {fileID: 2100000, guid: a133119f7845b454fb6fa663a1b2d958, type: 2}
   m_Color: {r: 0.7169812, g: 0.33481666, b: 0.33481666, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -730,11 +730,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.2352941, g: 0.8666667, b: 0.36229828, a: 1}
-    m_HighlightedColor: {r: 0.4666667, g: 1, b: 0.54941255, a: 1}
-    m_PressedColor: {r: 0.50845855, g: 0.93333334, b: 0.5058824, a: 1}
-    m_SelectedColor: {r: 0.22745098, g: 0.8392157, b: 0.23596081, a: 1}
-    m_DisabledColor: {r: 0.4390432, g: 1, b: 0.19215685, a: 0.5019608}
+    m_NormalColor: {r: 0.4811321, g: 0.3446905, b: 0.32453722, a: 1}
+    m_HighlightedColor: {r: 0.46226418, g: 0.3171631, b: 0.27256143, a: 1}
+    m_PressedColor: {r: 0.509434, g: 0.3244037, b: 0.32791948, a: 1}
+    m_SelectedColor: {r: 0.5943396, g: 0.4177198, b: 0.4412691, a: 1}
+    m_DisabledColor: {r: 0.5660378, g: 0.31934267, b: 0.3070488, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
