@@ -8153,6 +8153,11 @@ MonoBehaviour:
   heart3: {fileID: 1956164234}
   enemy1: {fileID: 641970483}
   enemy2: {fileID: 155001814}
+--- !u!95 &1709009607 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5003728047199311780, guid: 03556e1fedd907e46a305a93eaa74d47, type: 3}
+  m_PrefabInstance: {fileID: 7299039777790856077}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1709009609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10260,6 +10265,10 @@ PrefabInstance:
       propertyPath: speed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6798779046717792767, guid: 03556e1fedd907e46a305a93eaa74d47, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1709009607}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

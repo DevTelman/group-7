@@ -3,14 +3,18 @@ using UnityEngine.InputSystem;
 
 public class Move : MonoBehaviour
 {
+    public Animator animator;
     public float speed = 10f;
     bool facingRight = true;
 
     void Update()
     {
+        bool isMoving = false;
+
         if (Keyboard.current.rightArrowKey.isPressed)
         {
             MoveRight();
+            isMoving = true;
             if (!facingRight)
             {
                 Flip();
@@ -20,12 +24,15 @@ public class Move : MonoBehaviour
         else if (Keyboard.current.leftArrowKey.isPressed)
         {
             MoveLeft();
+            isMoving = true;
             if (facingRight)
             {
                 Flip();
                 facingRight = false;
             }
         }
+
+        animator.SetBool("Move", isMoving);
     }
 
     void MoveLeft()
