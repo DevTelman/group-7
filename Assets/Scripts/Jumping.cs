@@ -15,19 +15,16 @@ public class Jump : MonoBehaviour
 
     void Update()
     {
-        bool isJumping = false;
         if (Keyboard.current.upArrowKey.wasPressedThisFrame && isGrounded)
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
             isGrounded = false;
-            isJumping = true;
         }
-        animator.SetBool("Jump", isJumping);    
+        animator.SetBool("Jump", !isGrounded);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-   
         foreach (ContactPoint2D contact in collision.contacts)
         {
             if (contact.normal.y > 0.5f)

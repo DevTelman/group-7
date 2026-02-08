@@ -10750,6 +10750,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4104680595338723174, guid: 03556e1fedd907e46a305a93eaa74d47, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1709009607}
+    - target: {fileID: 4104680595338723174, guid: 03556e1fedd907e46a305a93eaa74d47, type: 3}
       propertyPath: jumpForce
       value: 20
       objectReference: {fileID: 0}
