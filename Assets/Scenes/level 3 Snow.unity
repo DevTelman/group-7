@@ -11188,6 +11188,7 @@ PrefabInstance:
       value: download (10)_0
       objectReference: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - target: {fileID: 2770028971628373075, guid: 000bfa8a82ccd834b817a7e581986a95, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.171549
@@ -11204,13 +11205,20 @@ PrefabInstance:
 =======
     - target: {fileID: 8314982917606983243, guid: cb9ecf4c9d510c346992cb8f746c5224, type: 3}
 >>>>>>> Stashed changes
+=======
+    - target: {fileID: 8314982917606983243, guid: cb9ecf4c9d510c346992cb8f746c5224, type: 3}
+>>>>>>> Stashed changes
       propertyPath: m_LocalPosition.x
       value: 7.77
       objectReference: {fileID: 0}
     - target: {fileID: 8314982917606983243, guid: cb9ecf4c9d510c346992cb8f746c5224, type: 3}
       propertyPath: m_LocalPosition.y
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       value: -0.83
+=======
+      value: -0.74
+>>>>>>> Stashed changes
 =======
       value: -0.74
 >>>>>>> Stashed changes
