@@ -146,7 +146,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &4638827204162412628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,6 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2b7a40adea6b584ba92069e41e3e2c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Move
+  animator: {fileID: 6606824088552777365}
   speed: 10
 --- !u!114 &2128594971072240087
 MonoBehaviour:
@@ -173,6 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jump
   jumpForce: 20
+  animator: {fileID: 6606824088552777365}
 --- !u!114 &8265492137201317132
 MonoBehaviour:
   m_ObjectHideFlags: 0
