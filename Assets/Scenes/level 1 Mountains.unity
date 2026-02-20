@@ -4940,7 +4940,11 @@ BoxCollider2D:
   m_Size: {x: 8, y: 4}
   m_EdgeRadius: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1001 &952599502
+=======
+--- !u!1001 &946681129
+>>>>>>> Stashed changes
 =======
 --- !u!1001 &946681129
 >>>>>>> Stashed changes
@@ -4951,6 +4955,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     - target: {fileID: 6418580730084832058, guid: 89de87e52abb9b041a75fb26b0b56c68, type: 3}
       propertyPath: m_LocalScale.x
@@ -5008,6 +5013,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (10)
 =======
+=======
+>>>>>>> Stashed changes
     - target: {fileID: 6244574383531881638, guid: c1a4b61f58f03e249a053d892323c0bf, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.5
@@ -5060,12 +5067,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u0414\u0438\u0437\u0430\u0439\u043D \u0431\u0435\u0437 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F
         (1)_0"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_SourcePrefab: {fileID: 100100000, guid: 89de87e52abb9b041a75fb26b0b56c68, type: 3}
 --- !u!1 &981589971 stripped
@@ -5075,6 +5086,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &981589973 stripped
 =======
+=======
+>>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: c1a4b61f58f03e249a053d892323c0bf, type: 3}
 --- !u!1 &1004607526
 GameObject:
@@ -8731,12 +8744,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   heart1: {fileID: 981589971}
   heart2: {fileID: 464804219}
   heart3: {fileID: 1956164234}
   enemy1: {fileID: 0}
   enemy2: {fileID: 0}
 =======
+=======
+>>>>>>> Stashed changes
   heart1: {fileID: 0}
   heart2: {fileID: 0}
   heart3: {fileID: 0}
@@ -9822,6 +9838,7 @@ Transform:
   m_Father: {fileID: 1278392168}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &1956164234 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6899507583834768148, guid: 0c18a8aada93c044a8dac8fbb083bdaf, type: 3}
@@ -9838,6 +9855,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1 &1977066960
@@ -11129,4 +11148,7 @@ SceneRoots:
   - {fileID: 1412071190}
   - {fileID: 399215041}
   - {fileID: 946681129}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
