@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9054362321645925301}
   - component: {fileID: 2778205373585194572}
   - component: {fileID: 1455315245074741225}
+  - component: {fileID: -2990200972312599741}
   - component: {fileID: 7882008563959645433}
   m_Layer: 0
   m_Name: 1
@@ -114,6 +115,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-2990200972312599741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3428942067944459392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d0525a01daba744b9c6997a9a7bda8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LousEnemy
+  playerLife: {fileID: 0}
 --- !u!70 &7882008563959645433
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
