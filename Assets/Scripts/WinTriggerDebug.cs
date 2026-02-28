@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class WinTriggerDebug : MonoBehaviour
 {
@@ -16,7 +16,7 @@ public class WinTriggerDebug : MonoBehaviour
         
         if (other.gameObject == playerObject)
         {
-            Debug.Log("✅ Player-ը հասավ տեղ!");
+            Debug.Log(" Player won!");
             if (winPanel != null)
             {
                 winPanel.SetActive(true);
