@@ -123448,11 +123448,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 344164686429410239, guid: f7a6bae080c81ea45a1a2d49568fea63, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Assets/Scenes/Level1.unity
       value: -0.1
+=======
+      value: -3.9
+>>>>>>> 299254d3321f81f8dcef25eade0c081063d40aec:Assets/Scenes/level 1.unity
       objectReference: {fileID: 0}
     - target: {fileID: 344164686429410239, guid: f7a6bae080c81ea45a1a2d49568fea63, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.49
+      value: -3.17
       objectReference: {fileID: 0}
     - target: {fileID: 344164686429410239, guid: f7a6bae080c81ea45a1a2d49568fea63, type: 3}
       propertyPath: m_LocalPosition.z
