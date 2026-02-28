@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 6648360749759378349}
   - component: {fileID: 3364303366537122919}
   - component: {fileID: 494728404854630513}
-  - component: {fileID: 4790384468949127887}
   - component: {fileID: 3058579095526232100}
+  - component: {fileID: 2802712724881824100}
   - component: {fileID: 7981164287748061471}
   m_Layer: 0
   m_Name: "\u0414\u0438\u0437\u0430\u0439\u043D \u0431\u0435\u0437 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u044F
@@ -175,23 +175,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Jump
   jumpForce: 10
   animator: {fileID: 5705977710048825359}
---- !u!114 &4790384468949127887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5787161976323387729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f598e44b125b7204d8ff5b248fe80234, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  heart1: {fileID: 0}
-  heart2: {fileID: 0}
-  heart3: {fileID: 0}
-  enemy1: {fileID: 0}
-  enemy2: {fileID: 0}
 --- !u!114 &3058579095526232100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,6 +187,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e890c05538e904b4e87cbfe57d3db172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinCollect
+--- !u!114 &2802712724881824100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5787161976323387729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e711c66a24c4244b1adec5903e60ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Lous
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  gameOverPanel: {fileID: 0}
 --- !u!70 &7981164287748061471
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
