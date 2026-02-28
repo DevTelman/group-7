@@ -7,6 +7,7 @@ public class Coin : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             CoinManager.instance.AddCoin();
+            Debug.Log("Coin touched");
             Destroy(gameObject); 
         }
     }
