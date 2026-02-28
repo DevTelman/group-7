@@ -1,27 +1,22 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class nextLevelAncnel : MonoBehaviour
+public class nextLevelAncnel: MonoBehaviour
 {
-    [Header("Current Level (optional)")]
-    public string currentLevelName;
-
-    [Header("Next Level")]
-    public string nextLevelName;
-
-    // Այս ֆունկցիան կկանչվի Button-ից
     public void LoadNextLevel()
     {
-        // Եթե current level-ը գրված է, ստուգում ենք
-        if (!string.IsNullOrEmpty(currentLevelName))
-        {
-            if (SceneManager.GetActiveScene().name != currentLevelName)
-            {
-                Debug.Log("Wrong level. Expected: " + currentLevelName);
-                return;
-            }
-        }
+        Time.timeScale = 1f;
 
-        SceneManager.LoadScene(nextLevelName);
+        int currentIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextIndex = currentIndex + 1;
+
+        if (nextIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(nextIndex);
+        }
+        else
+        {
+            Debug.Log("No more levels!");
+        }
     }
 }
