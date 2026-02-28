@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/level 1 Mountains.unity
     guid: c70828022b88b1842a1e2be19a431098
   - enabled: 1
-    path: Assets/Scenes/level 2 Dessert.unity
+    path: Assets/Scenes/Level2.unity
     guid: ca9e50a6f3331ab4092007b223b81a9a
   - enabled: 1
     path: Assets/Scenes/level 4 swamp.unity
