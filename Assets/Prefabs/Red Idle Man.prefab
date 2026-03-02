@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 4749104990300054904}
   - component: {fileID: 8102118934624505396}
   - component: {fileID: 181398537998689615}
-  - component: {fileID: 2898908065331930523}
   m_Layer: 0
   m_Name: Red Idle Man
   m_TagString: Player
@@ -146,7 +145,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jump
   jumpForce: 10
-  animator: {fileID: 0}
 --- !u!50 &4749104990300054904
 Rigidbody2D:
   serializedVersion: 5
@@ -223,20 +221,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e890c05538e904b4e87cbfe57d3db172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinCollect
---- !u!114 &2898908065331930523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5013782267308336872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f598e44b125b7204d8ff5b248fe80234, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  heart1: {fileID: 0}
-  heart2: {fileID: 0}
-  heart3: {fileID: 0}
-  enemy1: {fileID: 0}
-  enemy2: {fileID: 0}
