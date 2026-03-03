@@ -4,8 +4,8 @@ public class Bullet : MonoBehaviour
 {
     public float lifeTime = 2f;
 
-    public GameObject targetPrefab; // քաշում ես enemy prefab-ը
-    public AudioClip hitClip;
+    public GameObject targetPrefab;
+    public AudioSource hitAudio; // 👉 հիմա AudioSource ա
 
     void Start()
     {
@@ -14,12 +14,12 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // ստուգում ենք՝ սա նույն prefab-ից ա՞
         if (other.gameObject.name.Contains(targetPrefab.name))
         {
-            if (hitClip != null)
+            // 🔊 ձայն
+            if (hitAudio != null)
             {
-                AudioSource.PlayClipAtPoint(hitClip, transform.position);
+                hitAudio.Play();
             }
 
             Destroy(other.gameObject);
