@@ -1,17 +1,42 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Shoot : MonoBehaviour
+public class Shoot2 : MonoBehaviour
 {
     public GameObject bulletPrefab;
-    public float bulletSpeed = 10f;
+    public Transform firePoint;
+    public AudioSource shootSound;
+
+    public float fireSpeed = 20f;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.linearVelocity = new Vector2(transform.right.x * bulletSpeed, 0);
+            Shoot();
         }
+    }
+
+    void Shoot()
+    {
+        if (bulletPrefab == null || firePoint == null)
+        {
+            Debug.LogError("Bullet կամ FirePoint կապած չի!");
+            return;
+        }
+
+        GameObject bullet = Instantiate(
+            bulletPrefab,
+            firePoint.position,
+            Quaternion.identity
+        );
+
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+
+        float direction = GetComponent<SpriteRenderer>().flipX ? -1f : 1f;
+
+        rb.linearVelocity = new Vector2(direction * fireSpeed, 0f);
+
+        if (shootSound != null)
+            shootSound.Play();
     }
 }
