@@ -1472,6 +1472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7201065589464743512, guid: 20906c80026acc24890e5b8606239f48, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 6798917618655029174, guid: cb2bed39f865c614cbebec7bcad92131, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1841,6 +1845,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &388254204 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5340663536566400220, guid: 9983c65c85592924ab76ea505ea6cae2, type: 3}
+  m_PrefabInstance: {fileID: 861366945}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &388752831
 GameObject:
   m_ObjectHideFlags: 0
@@ -6716,7 +6731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccd0305d382178d4fb802e7f71fcfa2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shoot2
-  bulletPrefab: {fileID: 6798917618655029174, guid: 255c9f632712e9b4e9f59d0c68911a9c, type: 3}
+  bulletPrefab: {fileID: 6798917618655029174, guid: cb2bed39f865c614cbebec7bcad92131, type: 3}
   firePoint: {fileID: 1647796868}
   shootSound: {fileID: -1742298548434364641, guid: 255c9f632712e9b4e9f59d0c68911a9c, type: 3}
   fireSpeed: 20
@@ -8409,15 +8424,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6438000942965235687, guid: 8f5123acb2ef3994690a49b78a9a0f06, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.354947
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6438000942965235687, guid: 8f5123acb2ef3994690a49b78a9a0f06, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.95969814
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6438000942965235687, guid: 8f5123acb2ef3994690a49b78a9a0f06, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.3995955
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6438000942965235687, guid: 8f5123acb2ef3994690a49b78a9a0f06, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8602,6 +8617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle (2) 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7201065589464743512, guid: e834de890bb96184398f6e90ac47053f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 6798917618655029174, guid: cb2bed39f865c614cbebec7bcad92131, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9708,7 +9727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinManager
   coinCount: 0
-  coinText: {fileID: 0}
+  coinText: {fileID: 388254204}
 --- !u!4 &1925873527
 Transform:
   m_ObjectHideFlags: 0
@@ -10312,6 +10331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle (2) 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7201065589464743512, guid: e834de890bb96184398f6e90ac47053f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 6798917618655029174, guid: cb2bed39f865c614cbebec7bcad92131, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
