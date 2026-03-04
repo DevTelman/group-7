@@ -4440,19 +4440,23 @@ PrefabInstance:
       objectReference: {fileID: 3745561089706152779}
     - target: {fileID: 4028057739001262725, guid: 442518c85e6966742a453b5064df040b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4
+      value: 4.8484
       objectReference: {fileID: 0}
     - target: {fileID: 4028057739001262725, guid: 442518c85e6966742a453b5064df040b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4
+      value: 4.8484
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028057739001262725, guid: 442518c85e6966742a453b5064df040b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.480082
       objectReference: {fileID: 0}
     - target: {fileID: 4028057739001262725, guid: 442518c85e6966742a453b5064df040b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 219.94
+      value: 220.11
       objectReference: {fileID: 0}
     - target: {fileID: 4028057739001262725, guid: 442518c85e6966742a453b5064df040b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.06
+      value: -2.8
       objectReference: {fileID: 0}
     - target: {fileID: 4028057739001262725, guid: 442518c85e6966742a453b5064df040b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4494,6 +4498,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: kendani
       objectReference: {fileID: 0}
+    - target: {fileID: 7738212667935167083, guid: 442518c85e6966742a453b5064df040b, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 3745561089706152779}
+    - target: {fileID: 7738212667935167083, guid: 442518c85e6966742a453b5064df040b, type: 3}
+      propertyPath: barrier
+      value: 
+      objectReference: {fileID: 1636297300}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15299,7 +15311,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shoot
   bulletPrefab: {fileID: 5714764027144349903, guid: a9306dd59e29d43d08aa438673fe18f4, type: 3}
-  bulletSpeed: 10
+  firePoint: {fileID: 0}
+  shootSound: {fileID: 0}
+  fireSpeed: 20
 --- !u!114 &719185095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93023,6 +93037,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4b13fe0898ecb245979502033b04e6e, type: 3}
+--- !u!114 &1636297300 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 96919222362819046, guid: b4b13fe0898ecb245979502033b04e6e, type: 3}
+  m_PrefabInstance: {fileID: 1636297299}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a04afe28cb0dd42958daee250d29e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::pat
 --- !u!1001 &1644318679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -124181,7 +124206,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shoot
   bulletPrefab: {fileID: 6798917618655029174, guid: 255c9f632712e9b4e9f59d0c68911a9c, type: 3}
-  bulletSpeed: 10
+  firePoint: {fileID: 0}
+  shootSound: {fileID: 0}
+  fireSpeed: 20
 --- !u!114 &6994992343403136544 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5340663536566400220, guid: 9983c65c85592924ab76ea505ea6cae2, type: 3}
