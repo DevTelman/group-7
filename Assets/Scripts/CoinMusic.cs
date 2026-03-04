@@ -2,15 +2,18 @@
 
 public class CoinPickup : MonoBehaviour
 {
-    public GameObject player;      // Քաշում ես Player-ը
-    public AudioSource coinSound;  // Քաշում ես coin-ի AudioSource
+    public AudioClip coinClip;   // քաշում ես միայն ձայնը (ոչ AudioSource)
+    public GameObject player;    // քաշում ես Player-ը
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject == player)
         {
-            coinSound.Play();
-            Destroy(gameObject, coinSound.clip.length);
+            // 🔊 նվագում է անկախ քոյնից
+            AudioSource.PlayClipAtPoint(coinClip, transform.position);
+
+            // 👻 քոյնը անմիջապես անհետանում է
+            Destroy(gameObject);
         }
     }
 }
