@@ -1,13 +1,12 @@
 ﻿using UnityEngine;
 
-public class kendani : MonoBehaviour
+public class PickupItem : MonoBehaviour
 {
-    public GameObject player;              // այստեղ կքաշես Player-ը
-    public pat barrier;
+    public BarrierController barrier;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject == player)
+        if (other.CompareTag("Player"))
         {
             barrier.OpenBarrier();
             Destroy(gameObject);

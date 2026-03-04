@@ -1,16 +1,24 @@
 ﻿using UnityEngine;
 
-public class pat : MonoBehaviour
+public class BarrierController : MonoBehaviour
 {
-    private Collider2D barrierCollider;
+    public GameObject imageUI;  
+    public bool hasItem = false; 
 
-    void Start()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        barrierCollider = GetComponent<Collider2D>();
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            if (!hasItem)
+            {
+                imageUI.SetActive(true);
+            }
+        }
     }
 
     public void OpenBarrier()
     {
-        barrierCollider.enabled = false; // բացում է ճանապարհը
+        hasItem = true;
+        GetComponent<Collider2D>().enabled = false;
     }
 }
