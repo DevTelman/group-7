@@ -1,16 +1,31 @@
 ﻿using UnityEngine;
 
-public class pat : MonoBehaviour
+public class Barrier : MonoBehaviour
 {
-    private Collider2D barrierCollider;
+    public GameObject player;
+    public GameObject objectToShow;
+    public GameObject animal;
 
-    void Start()
+    private void Start()
     {
-        barrierCollider = GetComponent<Collider2D>();
+        objectToShow.SetActive(false);
     }
 
-    public void OpenBarrier()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        barrierCollider.enabled = false; // բացում է ճանապարհը
+        Debug.Log("HIT WALL");
+
+        if (collision.gameObject == player && animal != null)
+        {
+            objectToShow.SetActive(true);
+        }
+    }
+
+    private void Update()
+    {
+        if (animal == null && objectToShow.activeSelf)
+        {
+            objectToShow.SetActive(false);
+        }
     }
 }
