@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 9075469131695870132}
   - component: {fileID: 1720764534150460391}
-  - component: {fileID: 8746950107729609647}
   - component: {fileID: 803210622007109254}
   - component: {fileID: 9100244877153099869}
   m_Layer: 0
@@ -86,20 +85,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &8746950107729609647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331998945310270948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 548df4731d14b0045ab92a1db6afd1f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CameraFollowX
-  target: {fileID: 0}
-  smoothSpeed: 5
 --- !u!81 &803210622007109254
 AudioListener:
   m_ObjectHideFlags: 0
