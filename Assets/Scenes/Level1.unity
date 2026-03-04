@@ -124189,8 +124189,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shoot
   bulletPrefab: {fileID: 6798917618655029174, guid: 255c9f632712e9b4e9f59d0c68911a9c, type: 3}
-  firePoint: {fileID: 0}
-  shootSound: {fileID: 0}
+  firePoint: {fileID: 1996678178}
+  shootSound: {fileID: -1742298548434364641, guid: 255c9f632712e9b4e9f59d0c68911a9c, type: 3}
   fireSpeed: 20
 --- !u!114 &6994992343403136544 stripped
 MonoBehaviour:
