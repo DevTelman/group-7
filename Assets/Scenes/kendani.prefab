@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4817682322357413979}
   - component: {fileID: 857565777574764196}
   - component: {fileID: 7738212667935167083}
+  - component: {fileID: 8702688086002400098}
   - component: {fileID: 761136844828189477}
   m_Layer: 0
   m_Name: kendani
@@ -120,8 +121,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d880a5bc4b7b7048862812dd02d3778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::kendani
-  player: {fileID: 0}
   barrier: {fileID: 0}
+--- !u!114 &8702688086002400098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7135196198167911407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2411dc4470a489840aa9687156a47c4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalPickup
+  player: {fileID: 0}
+  barrierCollider: {fileID: 0}
 --- !u!61 &761136844828189477
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -1,24 +1,31 @@
 ﻿using UnityEngine;
 
-public class BarrierController : MonoBehaviour
+public class Barrier : MonoBehaviour
 {
-    public GameObject imageUI;  
-    public bool hasItem = false; 
+    public GameObject player;
+    public GameObject objectToShow;
+    public GameObject animal;
+
+    private void Start()
+    {
+        objectToShow.SetActive(false);
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        Debug.Log("HIT WALL");
+
+        if (collision.gameObject == player && animal != null)
         {
-            if (!hasItem)
-            {
-                imageUI.SetActive(true);
-            }
+            objectToShow.SetActive(true);
         }
     }
 
-    public void OpenBarrier()
+    private void Update()
     {
-        hasItem = true;
-        GetComponent<Collider2D>().enabled = false;
+        if (animal == null && objectToShow.activeSelf)
+        {
+            objectToShow.SetActive(false);
+        }
     }
 }
