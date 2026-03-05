@@ -2853,7 +2853,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 6798917618655029174, guid: ba9afd9498068a740bb7f5a74b8e13b5, type: 3}
   firePoint: {fileID: 461500327}
   shootSound: {fileID: -1742298548434364641, guid: ba9afd9498068a740bb7f5a74b8e13b5, type: 3}
-  fireSpeed: 20
+  fireSpeed: 30
 --- !u!1001 &819335211
 PrefabInstance:
   m_ObjectHideFlags: 0
