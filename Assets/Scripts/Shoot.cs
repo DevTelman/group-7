@@ -31,14 +31,10 @@ public class Shoot2 : MonoBehaviour
         );
 
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        if (transform.eulerAngles.z == 0)
-        {
-            rb.linearVelocity = transform.right * fireSpeed;
-        }
-        else
-        {
-            rb.linearVelocity = transform.up * fireSpeed;
-        }
+
+        float direction = Mathf.Sign(transform.localScale.x);
+
+        rb.linearVelocity = new Vector2(direction * fireSpeed, 0f);
 
         if (shootSound != null)
             shootSound.Play();
