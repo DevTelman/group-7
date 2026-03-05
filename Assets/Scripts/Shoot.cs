@@ -32,7 +32,7 @@ public class Shoot2 : MonoBehaviour
 
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
 
-        float direction = GetComponent<SpriteRenderer>().flipX ? -1f : 1f;
+        float direction = Mathf.Sign(transform.localScale.x);
 
         rb.linearVelocity = new Vector2(direction * fireSpeed, 0f);
 

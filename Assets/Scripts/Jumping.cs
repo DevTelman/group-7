@@ -30,6 +30,7 @@ public class Jump : MonoBehaviour
             if (contact.normal.y > 0.5f)
             {
                 isGrounded = true;
+                Debug.Log("is Ground true");
                 break;
             }
         }

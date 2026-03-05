@@ -8,8 +8,15 @@ public class PickupItem : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            AnimalCollector collector=other.GetComponent<AnimalCollector>();
+            if (collector != null)
+            {
+                collector.Collect();
             
+            
+            }
             Destroy(gameObject);
+
         }
     }
 }

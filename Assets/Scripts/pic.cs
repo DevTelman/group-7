@@ -3,7 +3,7 @@
 public class AnimalPickup : MonoBehaviour
 {
     public GameObject player;
-    public Collider2D barrierCollider; // ՍԱ ՓՈԽԻ
+    public Collider2D barrierCollider; 
 
     private void OnTriggerEnter2D(Collider2D other)
     {

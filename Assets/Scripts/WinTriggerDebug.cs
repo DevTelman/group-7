@@ -4,6 +4,8 @@ public class WinTriggerDebug : MonoBehaviour
 {
     public GameObject winPanel;
     public GameObject playerObject;
+    public GameObject saveAnimalPanel;
+    public AnimalCollector collector;
 
     private void Start()
     {
@@ -16,6 +18,12 @@ public class WinTriggerDebug : MonoBehaviour
         
         if (other.gameObject == playerObject)
         {
+            Debug.Log(collector.animalCount);
+            if (collector.animalCount  >0)
+            {
+                saveAnimalPanel.SetActive(true);
+                return;
+            }
             Debug.Log(" Player won!");
             if (winPanel != null)
             {
