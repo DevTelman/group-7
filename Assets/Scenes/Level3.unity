@@ -7965,6 +7965,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1665074328442829111, guid: ecf76e53068cdc24a9b999efc25f45ac, type: 3}
+      propertyPath: animal
+      value: 
+      objectReference: {fileID: 2130429386}
+    - target: {fileID: 1665074328442829111, guid: ecf76e53068cdc24a9b999efc25f45ac, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1326167951}
+    - target: {fileID: 1665074328442829111, guid: ecf76e53068cdc24a9b999efc25f45ac, type: 3}
+      propertyPath: targetCollider
+      value: 
+      objectReference: {fileID: 236413284}
     - target: {fileID: 7739401394100354199, guid: ecf76e53068cdc24a9b999efc25f45ac, type: 3}
       propertyPath: m_Name
       value: nkar

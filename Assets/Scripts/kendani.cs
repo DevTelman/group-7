@@ -2,7 +2,7 @@
 
 public class PickupItem : MonoBehaviour
 {
-    public Barrier barrier;
+    public Collider2D barrier;
 
     private void OnTriggerEnter2D(Collider2D other)
     {

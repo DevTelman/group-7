@@ -1417,6 +1417,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 39753192}
+  - component: {fileID: 39753193}
   - component: {fileID: 39753191}
   m_Layer: 0
   m_Name: photo_2026-03-04_21-59-59
@@ -1498,6 +1499,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &39753193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39753190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82349b1f33ce984cafb4613150b19cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShowObjectOnWallTouch
+  player: {fileID: 3745561089706152779}
+  targetCollider: {fileID: 1636297301}
+  animal: {fileID: 168721905}
 --- !u!1 &52892410
 GameObject:
   m_ObjectHideFlags: 0
@@ -93192,17 +93208,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4b13fe0898ecb245979502033b04e6e, type: 3}
---- !u!114 &1636297300 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 96919222362819046, guid: b4b13fe0898ecb245979502033b04e6e, type: 3}
+--- !u!1 &1636297300 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1565812359371264146, guid: b4b13fe0898ecb245979502033b04e6e, type: 3}
   m_PrefabInstance: {fileID: 1636297299}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54a04afe28cb0dd42958daee250d29e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::pat
 --- !u!61 &1636297301 stripped
 BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 234524928747190048, guid: b4b13fe0898ecb245979502033b04e6e, type: 3}
