@@ -827,7 +827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BarrierImage
   player: {fileID: 818135370}
-  image: {fileID: 270532734}
+  image: {fileID: 0}
 --- !u!4 &193286060
 Transform:
   m_ObjectHideFlags: 0
@@ -3033,9 +3033,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccd0305d382178d4fb802e7f71fcfa2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shoot2
-  bulletPrefab: {fileID: 6798917618655029174, guid: 456416f4c5338f4468b9211a4bf8355f, type: 3}
+  bulletPrefab: {fileID: 6798917618655029174, guid: ba9afd9498068a740bb7f5a74b8e13b5, type: 3}
   firePoint: {fileID: 461500327}
-  shootSound: {fileID: -1742298548434364641, guid: 456416f4c5338f4468b9211a4bf8355f, type: 3}
+  shootSound: {fileID: -1742298548434364641, guid: ba9afd9498068a740bb7f5a74b8e13b5, type: 3}
   fireSpeed: 30
 --- !u!114 &818135392
 MonoBehaviour:
@@ -4315,11 +4315,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6987122270754051449, guid: d8c9658998a645b4892df8f702695a0c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -128
+      value: 161
       objectReference: {fileID: 0}
     - target: {fileID: 6987122270754051449, guid: d8c9658998a645b4892df8f702695a0c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -382.4
+      value: -381
       objectReference: {fileID: 0}
     - target: {fileID: 6987122270754051449, guid: d8c9658998a645b4892df8f702695a0c, type: 3}
       propertyPath: m_LocalPosition.z
