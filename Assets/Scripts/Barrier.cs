@@ -1,6 +1,5 @@
 using UnityEngine;
 
-
 public class Barrier1 : MonoBehaviour
 {
     public GameObject player;
@@ -12,29 +11,30 @@ public class Barrier1 : MonoBehaviour
         objectToShow.SetActive(false);
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("HIT WALL");
-
         if (collision.gameObject == player)
         {
-            objectToShow.SetActive(true);
+            bool animalsLeft = false;
+
+            foreach (GameObject a in animals)
+            {
+                if (a != null)
+                {
+                    animalsLeft = true;
+                }
+            }
+
+            if (animalsLeft)
+            {
+                objectToShow.SetActive(true);
+            }
         }
     }
 
-    void Update()
+    void OnTriggerExit2D(Collider2D collision)
     {
-        bool allDestroyed = true;
-
-        foreach (GameObject a in animals)
-        {
-            if (a != null)
-            {
-                allDestroyed = false;
-            }
-        }
-
-        if (allDestroyed && objectToShow.activeSelf)
+        if (collision.gameObject == player)
         {
             objectToShow.SetActive(false);
         }

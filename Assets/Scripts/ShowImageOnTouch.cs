@@ -4,7 +4,7 @@ public class ShowObjectOnWallTouch : MonoBehaviour
 {
     public GameObject player;          // Player
     public Collider2D targetCollider; // Պատի collider
-    public GameObject animal;         // Animal
+    public GameObject[] animal;         // Animal
 
     private void Start()
     {
