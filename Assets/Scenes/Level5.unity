@@ -2854,6 +2854,20 @@ MonoBehaviour:
   firePoint: {fileID: 461500327}
   shootSound: {fileID: -1742298548434364641, guid: ba9afd9498068a740bb7f5a74b8e13b5, type: 3}
   fireSpeed: 30
+--- !u!114 &818135392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818135370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf86f40fe8dba5545b7e21e8698b7572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FallLose
+  fallY: -420
+  losePanel: {fileID: 1536816023}
 --- !u!1001 &819335211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4180,6 +4194,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5013782267308336872, guid: d8c9658998a645b4892df8f702695a0c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 818135387}
+    - targetCorrespondingSourceObject: {fileID: 5013782267308336872, guid: d8c9658998a645b4892df8f702695a0c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 818135392}
     - targetCorrespondingSourceObject: {fileID: 5013782267308336872, guid: d8c9658998a645b4892df8f702695a0c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 818135381}
