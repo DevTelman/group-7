@@ -1,42 +1,17 @@
 using UnityEngine;
 
-public class Barrier1 : MonoBehaviour
+public class BarrierCheck : MonoBehaviour
 {
-    public GameObject player;
-    public GameObject objectToShow;
-    public GameObject[] animals;
+    public GameObject animal1;
+    public GameObject animal2;
 
-    void Start()
+    public bool CanPass()
     {
-        objectToShow.SetActive(false);
-    }
-
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject == player)
+        if (animal1 == null && animal2 == null)
         {
-            bool animalsLeft = false;
-
-            foreach (GameObject a in animals)
-            {
-                if (a != null)
-                {
-                    animalsLeft = true;
-                }
-            }
-
-            if (animalsLeft)
-            {
-                objectToShow.SetActive(true);
-            }
+            return true;
         }
-    }
 
-    void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject == player)
-        {
-            objectToShow.SetActive(false);
-        }
+        return false;
     }
 }
