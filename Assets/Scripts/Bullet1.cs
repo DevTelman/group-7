@@ -5,7 +5,7 @@ public class Bullet : MonoBehaviour
     public float lifeTime = 2f;
 
     public GameObject targetPrefab;
-    public AudioSource hitAudio; // 👉 հիմա AudioSource ա
+    public AudioSource hitAudio; 
 
     void Start()
     {
@@ -16,7 +16,7 @@ public class Bullet : MonoBehaviour
     {
         if (other.gameObject.name.Contains(targetPrefab.name))
         {
-            // 🔊 ձայն
+            
             if (hitAudio != null)
             {
                 hitAudio.Play();
