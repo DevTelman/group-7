@@ -1,6 +1,11 @@
 fileFormatVersion: 2
-guid: 38a4f67d19153fa4c84fe438814a4e14
+<<<<<<<< HEAD:Assets/Prefabs/Bullet.prefab.meta
+guid: 4b32c0139214149fb9de841437779bcf
 PrefabImporter:
+========
+guid: 161b785e5b0644b028460aa9d9dfa158
+DefaultImporter:
+>>>>>>>> real_first_version:Assets/Scenes/Level6.unity 01-57-31-607.unity.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
