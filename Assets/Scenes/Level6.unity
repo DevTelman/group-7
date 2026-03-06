@@ -119,7 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1001 &466774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -412,8 +411,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33bc2fbce4af1334ba4d1e4487d2c9a7, type: 3}
-=======
->>>>>>> parent of 5d1440d (coin)
 --- !u!1 &122175419
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,13 +438,8 @@ Transform:
   m_GameObject: {fileID: 122175419}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: 0.0634, y: -0.13, z: 0}
   m_LocalScale: {x: 0.9998, y: 0.9656335, z: 1}
-=======
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
->>>>>>> parent of 5d1440d (coin)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1559099226}
@@ -500,11 +492,7 @@ TilemapRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-<<<<<<< HEAD
   m_ChunkCullingBounds: {x: 0.82352936, y: 2.0294118, z: 0}
-=======
-  m_ChunkCullingBounds: {x: 0.9666667, y: 2.2666667, z: 0}
->>>>>>> parent of 5d1440d (coin)
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -662,19 +650,32 @@ Tilemap:
       e31: 0
       e32: 0
       e33: 1
+  - m_RefCount: 0
+    m_Data:
+      e00: 1.4997716
+      e01: 0.00045687973
+      e02: 0.017449746
+      e03: 0
+      e10: -2.1827873e-11
+      e11: 1.4997716
+      e12: -0.017452406
+      e13: 0
+      e20: -0.02617861
+      e21: 0.02617462
+      e22: 0.9996954
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_TileColorArray:
   - m_RefCount: 6
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-<<<<<<< HEAD
   m_Origin: {x: -140, y: -8, z: 0}
   m_Size: {x: 349, y: 12, z: 1}
-=======
-  m_Origin: {x: -106, y: -8, z: 0}
-  m_Size: {x: 315, y: 12, z: 1}
->>>>>>> parent of 5d1440d (coin)
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -694,7 +695,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-<<<<<<< HEAD
 --- !u!1001 &151810779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1133,8 +1133,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33bc2fbce4af1334ba4d1e4487d2c9a7, type: 3}
-=======
->>>>>>> parent of 5d1440d (coin)
 --- !u!1 &418295678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,7 +1260,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
-<<<<<<< HEAD
 --- !u!1001 &440465284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2419,8 +2416,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33bc2fbce4af1334ba4d1e4487d2c9a7, type: 3}
-=======
->>>>>>> parent of 5d1440d (coin)
 --- !u!1 &886024220
 GameObject:
   m_ObjectHideFlags: 0
@@ -2573,7 +2568,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1001 &894482502
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3944,14 +3938,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33bc2fbce4af1334ba4d1e4487d2c9a7, type: 3}
-=======
->>>>>>> parent of 5d1440d (coin)
 --- !u!4 &1489158519 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1544243017968831742, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
   m_PrefabInstance: {fileID: 2104500423}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1001 &1510554401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4458,8 +4449,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33bc2fbce4af1334ba4d1e4487d2c9a7, type: 3}
-=======
->>>>>>> parent of 5d1440d (coin)
 --- !u!1 &1559099224
 GameObject:
   m_ObjectHideFlags: 0
@@ -4504,9 +4493,9 @@ Transform:
   m_Children:
   - {fileID: 1935717347}
   - {fileID: 122175420}
+  - {fileID: 1513886090}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1001 &1566089362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5533,8 +5522,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33bc2fbce4af1334ba4d1e4487d2c9a7, type: 3}
-=======
->>>>>>> parent of 5d1440d (coin)
 --- !u!1 &1935717346
 GameObject:
   m_ObjectHideFlags: 0
@@ -25510,7 +25497,6 @@ CompositeCollider2D:
       - X: -990071424
         Y: 9714286
     - - X: 370357120
-<<<<<<< HEAD
         Y: 142857
       - X: 370357120
         Y: 10285714
@@ -25607,108 +25593,6 @@ CompositeCollider2D:
       - X: -960285696
         Y: -285714
       - X: -900071424
-        Y: -285714
-    - - X: -199642848
-=======
->>>>>>> parent of 5d1440d (coin)
-        Y: 142857
-      - X: 370357120
-        Y: 10285714
-      - X: 310428576
-        Y: 10285714
-      - X: 309571424
-        Y: 10142858
-      - X: 309571424
-        Y: 571428
-      - X: 309714272
-        Y: -285714
-      - X: 369928576
-        Y: -285714
-    - - X: 900357120
-        Y: 142857
-      - X: 900357120
-        Y: 10285714
-      - X: 830428544
-        Y: 10285714
-      - X: 829571456
-        Y: 10142858
-      - X: 829571456
-        Y: 571428
-      - X: 829714304
-        Y: -285714
-      - X: 899928576
-        Y: -285714
-<<<<<<< HEAD
-=======
-    - - X: 680357120
-        Y: 142857
-      - X: 680357120
-        Y: 10285714
-      - X: 610428608
-        Y: 10285714
-      - X: 609571392
-        Y: 10142858
-      - X: 609571392
-        Y: 571428
-      - X: 609714304
-        Y: -285714
-      - X: 679928576
-        Y: -285714
-    - - X: -1259642880
-        Y: 142857
-      - X: -1259642880
-        Y: 10285714
-      - X: -1339571328
-        Y: 10285714
-      - X: -1340428672
-        Y: 10142858
-      - X: -1340428672
-        Y: 571428
-      - X: -1340285696
-        Y: -285714
-      - X: -1260071424
-        Y: -285714
-    - - X: 1460357248
-        Y: 142857
-      - X: 1460357248
-        Y: 10285714
-      - X: 1390428672
-        Y: 10285714
-      - X: 1389571328
-        Y: 10142858
-      - X: 1389571328
-        Y: 571428
-      - X: 1389714304
-        Y: -285714
-      - X: 1459928576
-        Y: -285714
-    - - X: -899642880
-        Y: 142857
-      - X: -899642880
-        Y: 10285714
-      - X: -959571456
-        Y: 10285714
-      - X: -960428544
-        Y: 10142858
-      - X: -960428544
-        Y: 571428
-      - X: -960285696
-        Y: -285714
-      - X: -900071424
-        Y: -285714
-    - - X: 20357142
-        Y: 142857
-      - X: 20357142
-        Y: 10285714
-      - X: -39571428
-        Y: 10285714
-      - X: -40428572
-        Y: 10142858
-      - X: -40428572
-        Y: 571428
-      - X: -40285716
-        Y: -285714
-      - X: 19928572
         Y: -285714
     - - X: -199642848
         Y: 142857
@@ -25724,21 +25608,20 @@ CompositeCollider2D:
         Y: -285714
       - X: -200071424
         Y: -285714
-    - - X: -659642880
+    - - X: 20357142
         Y: 142857
-      - X: -659642880
+      - X: 20357142
         Y: 10285714
-      - X: -769571456
+      - X: -39571428
         Y: 10285714
-      - X: -770428544
+      - X: -40428572
         Y: 10142858
-      - X: -770428544
+      - X: -40428572
         Y: 571428
-      - X: -770285696
+      - X: -40285716
         Y: -285714
-      - X: -660071424
+      - X: 19928572
         Y: -285714
->>>>>>> parent of 5d1440d (coin)
     - - X: 1290357248
         Y: -9857143
       - X: 1290357248
@@ -26064,7 +25947,6 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
-<<<<<<< HEAD
 --- !u!1001 &1962460034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26576,8 +26458,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33bc2fbce4af1334ba4d1e4487d2c9a7, type: 3}
-=======
->>>>>>> parent of 5d1440d (coin)
 --- !u!1 &2070025111
 GameObject:
   m_ObjectHideFlags: 0
@@ -26886,6 +26766,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2522894259171991467, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522894259171991467, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4021725441841782467, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
       propertyPath: gameOverPanel
       value: 
@@ -26915,7 +26803,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
-<<<<<<< HEAD
 --- !u!1 &2104500424 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 356343168416957791, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
@@ -27067,8 +26954,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33bc2fbce4af1334ba4d1e4487d2c9a7, type: 3}
-=======
->>>>>>> parent of 5d1440d (coin)
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -27078,7 +26963,6 @@ SceneRoots:
   - {fileID: 2070025113}
   - {fileID: 1559099226}
   - {fileID: 2104500423}
-<<<<<<< HEAD
   - {fileID: 352445804}
   - {fileID: 262304413}
   - {fileID: 71667886}
@@ -27152,5 +27036,3 @@ SceneRoots:
   - {fileID: 2094492732}
   - {fileID: 440465284}
   - {fileID: 1364324722}
-=======
->>>>>>> parent of 5d1440d (coin)
