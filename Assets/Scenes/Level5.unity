@@ -2318,15 +2318,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle (2) 1 (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3617654786383402139, guid: e834de890bb96184398f6e90ac47053f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
-      insertIndex: 4
+      insertIndex: 3
       addedObject: {fileID: 239263630}
     - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
-      insertIndex: 6
+      insertIndex: 5
       addedObject: {fileID: 239263623}
   m_SourcePrefab: {fileID: 100100000, guid: e834de890bb96184398f6e90ac47053f, type: 3}
 --- !u!1 &239263622 stripped
@@ -13664,12 +13665,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle (2) 1 (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3617654786383402139, guid: e834de890bb96184398f6e90ac47053f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
-      insertIndex: 4
+      insertIndex: 3
       addedObject: {fileID: 1723228774}
     - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
       insertIndex: -1
