@@ -1118,7 +1118,7 @@ PrefabInstance:
     - target: {fileID: 7320483211942850493, guid: 629c2d9b9ec4b554c93a8b8a9c04e7d9, type: 3}
       propertyPath: coinText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1325784764}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14358,6 +14358,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!114 &1325784764 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2601732156982894310, guid: d7bf3658e2051b24d96729afa1d7f7e2, type: 3}
+  m_PrefabInstance: {fileID: 1006572384}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &1345662606
 GameObject:
   m_ObjectHideFlags: 0
@@ -23595,6 +23606,10 @@ PrefabInstance:
       propertyPath: 'hearts.Array.data[2]'
       value: 
       objectReference: {fileID: 1118687415}
+    - target: {fileID: 4035453755244439729, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
