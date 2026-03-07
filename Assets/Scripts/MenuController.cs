@@ -12,4 +12,8 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene("TutorialScene");
     }
+    public void LoadMenu1()
+    {
+        SceneManager.LoadScene("Menu1");
+    }
 }
