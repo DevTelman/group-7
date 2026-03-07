@@ -21743,7 +21743,7 @@ PrefabInstance:
       objectReference: {fileID: 861366946}
     - target: {fileID: 4035453755244439729, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
       propertyPath: speed
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 9156726732039446268, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
       propertyPath: jumpForce
