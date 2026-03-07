@@ -2622,19 +2622,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6438000942965235687, guid: 8f5123acb2ef3994690a49b78a9a0f06, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9999989
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6438000942965235687, guid: 8f5123acb2ef3994690a49b78a9a0f06, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0014674107
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6438000942965235687, guid: 8f5123acb2ef3994690a49b78a9a0f06, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6438000942965235687, guid: 8f5123acb2ef3994690a49b78a9a0f06, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6438000942965235687, guid: 8f5123acb2ef3994690a49b78a9a0f06, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -32623,11 +32623,11 @@ PrefabInstance:
       addedObject: {fileID: 65027498}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 356343168416957791, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
-      insertIndex: 8
-      addedObject: {fileID: 2104500443}
+      insertIndex: 2
+      addedObject: {fileID: 2104500461}
     - targetCorrespondingSourceObject: {fileID: 356343168416957791, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
       insertIndex: 9
-      addedObject: {fileID: 2104500452}
+      addedObject: {fileID: 2104500443}
   m_SourcePrefab: {fileID: 100100000, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
 --- !u!1 &2104500424 stripped
 GameObject:
@@ -32658,7 +32658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimalCollector
   animalCount: 2
---- !u!114 &2104500452
+--- !u!114 &2104500461
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32667,9 +32667,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2104500424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ccd0305d382178d4fb802e7f71fcfa2d, type: 3}
+  m_Script: {fileID: 11500000, guid: 25cbb50ef756fac488fa7bb168d41e03, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Shoot2
+  m_EditorClassIdentifier: Assembly-CSharp::Shoot1
   bulletPrefab: {fileID: 6798917618655029174, guid: 176f5fcf9c2a4e74c8546107c4caac00, type: 3}
   firePoint: {fileID: 65027498}
   shootSound: {fileID: -1742298548434364641, guid: 176f5fcf9c2a4e74c8546107c4caac00, type: 3}
