@@ -3132,10 +3132,10 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -3.2933729, y: -2.0191061}
-  - {x: 2.8917236, y: -1.9982276}
-  - {x: -0.2554016, y: 2.4057405}
-  - {x: -3.2793963, y: -1.9761484}
+  - {x: -4.7873726, y: -2.3173847}
+  - {x: 4.848657, y: -2.2752016}
+  - {x: 0.2917037, y: 3.19405}
+  - {x: -4.8575883, y: -2.3596506}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -3968,10 +3968,10 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -3.2933729, y: -2.0191061}
-  - {x: 2.8917236, y: -1.9982276}
-  - {x: -0.2554016, y: 2.4057405}
-  - {x: -3.2793963, y: -1.9761484}
+  - {x: -4.7873726, y: -2.3173847}
+  - {x: 4.848657, y: -2.2752016}
+  - {x: 0.2917037, y: 3.19405}
+  - {x: -4.8575883, y: -2.3596506}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -5366,10 +5366,10 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -3.2933729, y: -2.0191061}
-  - {x: 2.8917236, y: -1.9982276}
-  - {x: -0.2554016, y: 2.4057405}
-  - {x: -3.2793963, y: -1.9761484}
+  - {x: -4.7873726, y: -2.3173847}
+  - {x: 4.848657, y: -2.2752016}
+  - {x: 0.2917037, y: 3.19405}
+  - {x: -4.8575883, y: -2.3596506}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -5610,10 +5610,10 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -3.2933729, y: -2.0191061}
-  - {x: 2.8917236, y: -1.9982276}
-  - {x: -0.2554016, y: 2.4057405}
-  - {x: -3.2793963, y: -1.9761484}
+  - {x: -4.7873726, y: -2.3173847}
+  - {x: 4.848657, y: -2.2752016}
+  - {x: 0.2917037, y: 3.19405}
+  - {x: -4.8575883, y: -2.3596506}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -9782,7 +9782,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1446761480534488952, guid: 050a8b14b6aa62740959ba3db1352b44, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1607239693379622387, guid: 050a8b14b6aa62740959ba3db1352b44, type: 3}
       propertyPath: m_LocalScale.x
@@ -9794,7 +9794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4255048321696784666, guid: 050a8b14b6aa62740959ba3db1352b44, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8287526271997353798, guid: 050a8b14b6aa62740959ba3db1352b44, type: 3}
       propertyPath: m_Name
@@ -11079,10 +11079,10 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -3.2933729, y: -2.0191061}
-  - {x: 2.8917236, y: -1.9982276}
-  - {x: -0.2554016, y: 2.4057405}
-  - {x: -3.2793963, y: -1.9761484}
+  - {x: -4.7873726, y: -2.3173847}
+  - {x: 4.848657, y: -2.2752016}
+  - {x: 0.2917037, y: 3.19405}
+  - {x: -4.8575883, y: -2.3596506}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
