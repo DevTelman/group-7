@@ -1725,7 +1725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4572a5a57df72604490abdb76ebba63e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoseHeartNoDestroy
-  playerLife: {fileID: 0}
+  playerLife: {fileID: 2104500427}
 --- !u!114 &261596384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4070,7 +4070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4572a5a57df72604490abdb76ebba63e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoseHeartNoDestroy
-  playerLife: {fileID: 0}
+  playerLife: {fileID: 2104500427}
 --- !u!114 &509264646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10735,7 +10735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4572a5a57df72604490abdb76ebba63e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoseHeartNoDestroy
-  playerLife: {fileID: 0}
+  playerLife: {fileID: 2104500427}
 --- !u!114 &1639090767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33003,7 +33003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4572a5a57df72604490abdb76ebba63e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoseHeartNoDestroy
-  playerLife: {fileID: 0}
+  playerLife: {fileID: 2104500427}
 --- !u!114 &1956190876
 MonoBehaviour:
   m_ObjectHideFlags: 0
