@@ -209,12 +209,16 @@ PrefabInstance:
       objectReference: {fileID: 6798917618655029174, guid: cb2bed39f865c614cbebec7bcad92131, type: 3}
     m_RemovedComponents:
     - {fileID: 2386625310452161703, guid: e834de890bb96184398f6e90ac47053f, type: 3}
+    - {fileID: 3617654786383402139, guid: e834de890bb96184398f6e90ac47053f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
       insertIndex: 2
       addedObject: {fileID: 32720916}
+    - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 32720928}
     - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 32720922}
@@ -269,12 +273,25 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.3}
   m_Radius: 3
+--- !u!114 &32720928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32720914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4572a5a57df72604490abdb76ebba63e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoseHeartNoDestroy
+  playerLife: {fileID: 1326167954}
 --- !u!1 &38423057
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +618,7 @@ EdgeCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -6755,11 +6772,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5151452508393008577, guid: 33bc2fbce4af1334ba4d1e4487d2c9a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 933.3
+      value: 915.8
       objectReference: {fileID: 0}
     - target: {fileID: 5151452508393008577, guid: 33bc2fbce4af1334ba4d1e4487d2c9a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.2
+      value: 9.8
       objectReference: {fileID: 0}
     - target: {fileID: 5151452508393008577, guid: 33bc2fbce4af1334ba4d1e4487d2c9a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9087,7 +9104,7 @@ EdgeCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -10925,9 +10942,13 @@ PrefabInstance:
       objectReference: {fileID: 6798917618655029174, guid: cb2bed39f865c614cbebec7bcad92131, type: 3}
     m_RemovedComponents:
     - {fileID: 2386625310452161703, guid: e834de890bb96184398f6e90ac47053f, type: 3}
+    - {fileID: 3617654786383402139, guid: e834de890bb96184398f6e90ac47053f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 832453788}
     - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 832453776}
@@ -10985,12 +11006,25 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.3}
   m_Radius: 3
+--- !u!114 &832453788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832453774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4572a5a57df72604490abdb76ebba63e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoseHeartNoDestroy
+  playerLife: {fileID: 1326167954}
 --- !u!1 &832574005
 GameObject:
   m_ObjectHideFlags: 0
@@ -11299,7 +11333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8708737061914426771, guid: 9983c65c85592924ab76ea505ea6cae2, type: 3}
       propertyPath: m_text
-      value: /61
+      value: /60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11613,12 +11647,25 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.3}
   m_Radius: 3
+--- !u!114 &871428420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871428400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4572a5a57df72604490abdb76ebba63e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoseHeartNoDestroy
+  playerLife: {fileID: 1326167954}
 --- !u!1 &871751190
 GameObject:
   m_ObjectHideFlags: 0
@@ -15605,9 +15652,13 @@ PrefabInstance:
       objectReference: {fileID: 6798917618655029174, guid: cb2bed39f865c614cbebec7bcad92131, type: 3}
     m_RemovedComponents:
     - {fileID: 2386625310452161703, guid: e834de890bb96184398f6e90ac47053f, type: 3}
+    - {fileID: 3617654786383402139, guid: e834de890bb96184398f6e90ac47053f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 871428420}
     - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
       insertIndex: 4
       addedObject: {fileID: 871428403}
@@ -15665,12 +15716,25 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.3}
   m_Radius: 3
+--- !u!114 &1260360429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260360409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4572a5a57df72604490abdb76ebba63e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoseHeartNoDestroy
+  playerLife: {fileID: 1326167954}
 --- !u!1 &1271681981
 GameObject:
   m_ObjectHideFlags: 0
@@ -20155,12 +20219,25 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.3}
   m_Radius: 3
+--- !u!114 &1628944431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628944411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4572a5a57df72604490abdb76ebba63e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoseHeartNoDestroy
+  playerLife: {fileID: 1326167954}
 --- !u!1001 &1647796867
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22011,12 +22088,16 @@ PrefabInstance:
       objectReference: {fileID: 6798917618655029174, guid: cb2bed39f865c614cbebec7bcad92131, type: 3}
     m_RemovedComponents:
     - {fileID: 2386625310452161703, guid: e834de890bb96184398f6e90ac47053f, type: 3}
+    - {fileID: 3617654786383402139, guid: e834de890bb96184398f6e90ac47053f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
-      insertIndex: 4
+      insertIndex: 3
       addedObject: {fileID: 1628944414}
+    - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1628944431}
     - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1628944425}
@@ -22912,7 +22993,7 @@ EdgeCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -24341,15 +24422,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2239319522525008025, guid: e834de890bb96184398f6e90ac47053f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 915.61
+      value: 932.7
       objectReference: {fileID: 0}
     - target: {fileID: 2239319522525008025, guid: e834de890bb96184398f6e90ac47053f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.6
+      value: 9.3
       objectReference: {fileID: 0}
     - target: {fileID: 2239319522525008025, guid: e834de890bb96184398f6e90ac47053f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.97
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 2239319522525008025, guid: e834de890bb96184398f6e90ac47053f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -24870,12 +24951,16 @@ PrefabInstance:
       objectReference: {fileID: 6798917618655029174, guid: cb2bed39f865c614cbebec7bcad92131, type: 3}
     m_RemovedComponents:
     - {fileID: 2386625310452161703, guid: e834de890bb96184398f6e90ac47053f, type: 3}
+    - {fileID: 3617654786383402139, guid: e834de890bb96184398f6e90ac47053f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
-      insertIndex: 4
+      insertIndex: 3
       addedObject: {fileID: 1260360412}
+    - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1260360429}
     - targetCorrespondingSourceObject: {fileID: 6674442132886889241, guid: e834de890bb96184398f6e90ac47053f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1260360423}
