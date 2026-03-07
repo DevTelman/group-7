@@ -6993,7 +6993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveINWater
   animator: {fileID: 818135377}
-  speed: 20
+  speed: 15
 --- !u!114 &818135381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7045,7 +7045,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 6798917618655029174, guid: ba9afd9498068a740bb7f5a74b8e13b5, type: 3}
   firePoint: {fileID: 461500327}
   shootSound: {fileID: -1742298548434364641, guid: ee693479d3111ce41b66bd182d1d6141, type: 3}
-  fireSpeed: 20
+  fireSpeed: 30
 --- !u!114 &818135398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10340,6 +10340,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 0}
     - {fileID: 813489049050473046, guid: d8c9658998a645b4892df8f702695a0c, type: 3}
+    - {fileID: 627554484746110018, guid: d8c9658998a645b4892df8f702695a0c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6987122270754051449, guid: d8c9658998a645b4892df8f702695a0c, type: 3}

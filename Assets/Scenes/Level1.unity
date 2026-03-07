@@ -123407,9 +123407,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccd0305d382178d4fb802e7f71fcfa2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shoot
-  bulletPrefab: {fileID: 6798917618655029174, guid: 255c9f632712e9b4e9f59d0c68911a9c, type: 3}
+  bulletPrefab: {fileID: 1101420373791586505, guid: 9e3fe888b083e26449286615eb4cff56, type: 3}
   firePoint: {fileID: 1996678178}
-  shootSound: {fileID: -1742298548434364641, guid: 255c9f632712e9b4e9f59d0c68911a9c, type: 3}
+  shootSound: {fileID: 1265525222672227825, guid: 9e3fe888b083e26449286615eb4cff56, type: 3}
   fireSpeed: 20
 --- !u!70 &6244574383382282617
 CapsuleCollider2D:

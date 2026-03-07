@@ -16392,7 +16392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccd0305d382178d4fb802e7f71fcfa2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shoot2
-  bulletPrefab: {fileID: 6798917618655029174, guid: cb2bed39f865c614cbebec7bcad92131, type: 3}
+  bulletPrefab: {fileID: 6798917618655029174, guid: 255c9f632712e9b4e9f59d0c68911a9c, type: 3}
   firePoint: {fileID: 1647796868}
   shootSound: {fileID: -1742298548434364641, guid: 255c9f632712e9b4e9f59d0c68911a9c, type: 3}
   fireSpeed: 20
@@ -16841,7 +16841,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5151452508393008577, guid: 33bc2fbce4af1334ba4d1e4487d2c9a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.5
+      value: 8.82
       objectReference: {fileID: 0}
     - target: {fileID: 5151452508393008577, guid: 33bc2fbce4af1334ba4d1e4487d2c9a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21747,7 +21747,7 @@ PrefabInstance:
       objectReference: {fileID: 34194659}
     - target: {fileID: 4035453755244439729, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
       propertyPath: speed
-      value: 20
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 9156726732039446268, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
       propertyPath: jumpForce
@@ -22852,7 +22852,7 @@ Transform:
   m_GameObject: {fileID: 1904657056}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.7, y: 6.3, z: 0}
+  m_LocalPosition: {x: 10.7, y: 5.03, z: 0}
   m_LocalScale: {x: 2.3186, y: 2.5274, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
