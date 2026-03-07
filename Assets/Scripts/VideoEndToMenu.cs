@@ -13,6 +13,6 @@ public class VideoEndToMenu : MonoBehaviour
 
     void OnVideoEnd(VideoPlayer vp)
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("Menu2");
     }
 }
