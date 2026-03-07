@@ -134,8 +134,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet1
   lifeTime: 2
-  targetPrefab: {fileID: 6674442132886889241, guid: 20906c80026acc24890e5b8606239f48, type: 3}
-  hitAudio: {fileID: -1742298548434364641, guid: 176f5fcf9c2a4e74c8546107c4caac00, type: 3}
+  targetPrefab: {fileID: 356343168416957791, guid: eeeed50fa5e346647ad80d07ff2ba042, type: 3}
+  hitAudio: {fileID: -1742298548434364641}
 --- !u!58 &2104484401449987634
 CircleCollider2D:
   m_ObjectHideFlags: 0
