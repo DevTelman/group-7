@@ -10243,7 +10243,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 627554484746110018, guid: d8c9658998a645b4892df8f702695a0c, type: 3}
       propertyPath: speed
-      value: 100
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 813489049050473046, guid: d8c9658998a645b4892df8f702695a0c, type: 3}
       propertyPath: jumpForce
@@ -10338,9 +10338,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 627554484746110018, guid: d8c9658998a645b4892df8f702695a0c, type: 3}
+    - {fileID: 0}
     - {fileID: 813489049050473046, guid: d8c9658998a645b4892df8f702695a0c, type: 3}
-    - {fileID: 2898908065331930523, guid: d8c9658998a645b4892df8f702695a0c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6987122270754051449, guid: d8c9658998a645b4892df8f702695a0c, type: 3}
@@ -13493,6 +13492,14 @@ PrefabInstance:
     - target: {fileID: 6729111200171214957, guid: 9983c65c85592924ab76ea505ea6cae2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7722038363007841557, guid: 9983c65c85592924ab76ea505ea6cae2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 843
+      objectReference: {fileID: 0}
+    - target: {fileID: 7722038363007841557, guid: 9983c65c85592924ab76ea505ea6cae2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 455
       objectReference: {fileID: 0}
     - target: {fileID: 8708737061914426771, guid: 9983c65c85592924ab76ea505ea6cae2, type: 3}
       propertyPath: m_text
